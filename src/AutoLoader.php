@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Jcsp\Core;
+namespace Wudner\Gateway;
 
 use Swoft\Helper\ComposerJSON;
 use Swoft\SwoftComponent;
