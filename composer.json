@@ -1,11 +1,11 @@
 {
-	"name": "jcsp/api-gateway",
-	"description": "api gateway for jscp",
+	"name": "wudner/api-gateway",
+	"description": "api gateway tool for swoft",
 	"type": "library",
 	"license": "MIT",
 	"autoload": {
 		"psr-4": {
-			"Jcsp\\SpiGateway\\": "src"
+			"wudner\\Gateway\\": "src"
 		}
 	},
 	"minimum-stability": "stable",
