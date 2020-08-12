@@ -4,9 +4,9 @@
  * @author polaris
  */
 
-namespace Jcsp\Core\Annotation\Parser;
+namespace Wudner\Gateway\Annotation\Parser;
 
-use Jcsp\Core\Annotation\Mapping\Parameters;
+use Wudner\Gateway\Annotation\Mapping\Parameters;
 use Swoft\Annotation\Annotation\Mapping\AnnotationParser;
 use Swoft\Annotation\Annotation\Parser\Parser;
 use Swoft\Annotation\Exception\AnnotationException;
@@ -38,7 +38,7 @@ class ParametersParse extends Parser
         $type = $annotationObject->getType();
         $unfields = $annotationObject->getUnfields();
 
-//        var_dump($parameter);
+        var_dump($parameter);
 
         ValidateRegister::registerValidate(
             $this->className,
