@@ -1,0 +1,22 @@
+{
+	"name": "jcsp/api-gateway",
+	"description": "api gateway for jscp",
+	"type": "library",
+	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+			"Jcsp\\SpiGateway\\": "src"
+		}
+	},
+	"minimum-stability": "stable",
+	"require": {
+		"php": ">7.1",
+		"swoft/framework": "~2.0.0"
+	},
+	"repositories": {
+		"packagist": {
+			"type": "composer",
+			"url": "https://packagist.laravel-china.org"
+		}
+	}
+}
